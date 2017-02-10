@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "CSQRCode.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextView *tfView;
+@property (weak, nonatomic) IBOutlet UIImageView *qrImageView;
 
 @end
 
@@ -16,7 +19,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self.tfView becomeFirstResponder];
+    
+}
+- (IBAction)createQRCode:(id)sender {
+    [self.tfView resignFirstResponder];
+    [CSQRCode cs_cardImageWithCardContent:self.tfView.text adLogo:[UIImage imageNamed:@"logeDemo"] scale:0.2 completion:^(UIImage *image) {
+        self.qrImageView.image = image;
+    }];
 }
 
 
