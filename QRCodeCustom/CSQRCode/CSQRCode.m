@@ -10,6 +10,7 @@
 #import <CoreImage/CoreImage.h>
 
 @implementation CSQRCode
+
 +(void)cs_cardImageWithCardContent:(NSString *)cardContent adLogo:(UIImage *)logoImage scale:(CGFloat)scale completion:(void (^)(UIImage *))commpletion{
     if (!commpletion) {
         return;
