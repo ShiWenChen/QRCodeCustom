@@ -24,6 +24,12 @@
 }
 - (IBAction)createQRCode:(id)sender {
     [self.tfView resignFirstResponder];
+    
+    /**
+     生成二维码
+     @ adLogo Logo
+     @param image 返回的二维码图片
+     */
     [CSQRCode cs_cardImageWithCardContent:self.tfView.text adLogo:[UIImage imageNamed:@"logeDemo"] scale:0.2 completion:^(UIImage *image) {
         self.qrImageView.image = image;
     }];

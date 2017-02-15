@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84038A4D1E546802006DF713 /* use.png in Resources */ = {isa = PBXBuildFile; fileRef = 84038A4C1E546802006DF713 /* use.png */; };
 		847D99C11E4DA68E001438EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D99C01E4DA68E001438EA /* main.m */; };
 		847D99C41E4DA68E001438EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D99C31E4DA68E001438EA /* AppDelegate.m */; };
 		847D99C71E4DA68E001438EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D99C61E4DA68E001438EA /* ViewController.m */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84038A4C1E546802006DF713 /* use.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = use.png; sourceTree = "<group>"; };
 		847D99BC1E4DA68E001438EA /* QRCodeCustom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeCustom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847D99C01E4DA68E001438EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		847D99C21E4DA68E001438EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				847D99EA1E4DBCAC001438EA /* perView.gif */,
+				84038A4C1E546802006DF713 /* use.png */,
 				847D99C01E4DA68E001438EA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -212,6 +215,7 @@
 			files = (
 				847D99CF1E4DA68E001438EA /* LaunchScreen.storyboard in Resources */,
 				847D99EB1E4DBCAC001438EA /* perView.gif in Resources */,
+				84038A4D1E546802006DF713 /* use.png in Resources */,
 				847D99CC1E4DA68E001438EA /* Assets.xcassets in Resources */,
 				847D99CA1E4DA68E001438EA /* Main.storyboard in Resources */,
 			);
@@ -439,6 +443,7 @@
 				847D99E01E4DA68F001438EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		847D99E11E4DA68F001438EA /* Build configuration list for PBXNativeTarget "QRCodeCustomTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +452,7 @@
 				847D99E31E4DA68F001438EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
